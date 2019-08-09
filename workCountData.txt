@@ -1,0 +1,2 @@
+Spark可以独立安装使用，也可以和Hadoop一起安装使用。本教程中，我们采用和Hadoop一起安装使用，这样，就可以让Spark使用HDFS存取数据。需要说明的是，当安装好Spark以后，里面就自带了scala环境，不需要额外安装scala，因此，“Spark安装”这个部分的教程，假设读者的计算机上，没有安装Scala，也没有安装Java（当然了，如果已经安装Java和Scala，也没有关系，依然可以继续按照本教程进行安装），也就是说，你的计算机目前只有Linux系统，其他的软件和环境都没有安装（没有Java，没有Scala，没有Hadoop，没有Spark），需要从零开始安装所有大数据相关软件。下面，需要你在自己的Linux系统上（笔者采用的Linux系统是Ubuntu16.04），首先安装Java和Hadoop，然后再安装Spark（Spark安装好以后，里面就默认包含了Scala解释器）。由于Ubuntu 16.04已经自带了Python 3.5版本，所以你的系统如果是Ubuntu 16.04，那么就不需要重新安装Python了。本教程也将以python3语法进行教学。
+本教程的具体运行环境如下
